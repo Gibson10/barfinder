@@ -1,0 +1,32 @@
+<% include ./partials/landingHeader %>
+
+<!--Mask-->
+<div class="view hm-black-strong">
+    <div class="full-bg-img flex-center">
+        <ul>
+            <li>
+                <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Bar<em>Ea</em></h1></li>
+            <li>
+                <p class="wow fadeInDown">Bringing the <em><strong>bar</strong>*</em>  into your pocket</p>
+            </li>
+            <form class="form-inline wow fadeInLeft" action="/bars" method="GET">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="md-form form-group">
+                            <input type="text" id="loctn" name="loctn" class="ml-3 form-control" autocomplete="off">
+                            <label class="ml-3" for="loctn" data-error="wrong" data-success="right">Where are you at?</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="md-form form-group">
+                        <button type="submit" class="btn btn-primary btn-sm">Search...</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </ul>
+    </div>
+</div>
+<!--/Mask-->
+
+<% include ./partials/landingFooter %>
